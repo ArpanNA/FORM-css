@@ -1,0 +1,11 @@
+body{
+    display: flex;
+
+}
+img.bg_img{
+    height: 150vh;
+    width: 100vh;
+}
+img.logo{
+    height: 30vh;
+}

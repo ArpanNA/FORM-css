@@ -75,15 +75,52 @@ input{
     border-radius: 5px;
 }
 .submit{
-    margin-top: 40px !important;
+    margin-top: 40px;
+
+}
+.btn-submit{
+    background-color: #399e39;
+    width: 150px;
+    height: 30px ;
+    border-radius: 50px;
+    font-size: 1.1em;
 
 }
 .login{
     display: flex;
     font-size: 1.2em;
-    gap: 10px !important;
+    gap: 10px ;
 
 }
 a{
-    margin-top: 18px !important;
+    margin-top: 18px;
 }
+@media only screen and (max-width: 768px) {
+    .container {
+      flex-direction: column;
+      align-items: center;
+    }
+    
+    .side-img {
+      display: none;
+    }
+    
+    .text {
+      margin-top: 50px;
+      text-align: center;
+      margin-left: 0;
+    }
+    
+    form {
+      margin-left: 0;
+    }
+    
+    form .main-form {
+      flex-direction: column;
+      gap: 20px;
+    }
+    
+    .left-form, .right-form {
+      width: auto;
+    }
+  }

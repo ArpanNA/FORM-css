@@ -1,0 +1,93 @@
+body{
+    display: flex;
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+    background-color: aliceblue;
+}
+
+.side-img{
+    background-image: url(login.jpg);
+    background-size: cover;
+    width: 30%;
+    height: 100vh;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+}
+
+.intro{
+    background-color: aliceblue;
+    padding: 20px;
+}
+
+.text{
+    font-size: 1.4rem;
+    font-weight: bold;
+}
+
+.text p{
+    margin-top: 20px;
+}
+
+form{
+    margin-top: 20px;
+    padding: 20px;
+}
+
+form .main-form{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.left-form,
+.right-form{
+    width: 100%;
+}
+
+label{
+    font-size: 1.2rem;
+}
+
+input{
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid wheat;
+}
+
+.submit{
+    margin-top: 20px;
+}
+
+.btn-submit{
+    background-color: #399e39;
+    width: 150px;
+    height: 40px;
+    border-radius: 50px;
+    font-size: 1.1em;
+}
+
+.login{
+    display: flex;
+    font-size: 1.2rem;
+    gap: 10px;
+}
+
+a{
+    margin-top: 18px;
+}
+
+/* Media Query for smaller screens */
+@media screen and (max-width: 768px) {
+    .container {
+        width: 100%;
+    }
+    
+    .side-img {
+        display: none;
+    }
+}
